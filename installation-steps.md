@@ -22,12 +22,10 @@
 
 5.Configure Agent to Connect to Manager:
   * sudo nano /var/ossec/etc/ossec.conf
-      <server>
-        <address>MANAGER_PRIVATE_IP</address>
-      </server>
   * sudo systemctl start wazuh-agent
 6.Add Agent in Manager:
   * sudo /var/ossec/bin/agent-auth -m MANAGER_PRIVATE_IP
   * sudo /var/ossec/bin/agent-auth -m MANAGER_PRIVATE_IP
   * sudo systemctl restart wazuh-agent
+
 
