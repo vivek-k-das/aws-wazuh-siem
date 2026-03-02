@@ -1,4 +1,4 @@
-# AWS Wazuh SIEM Deployment
+# Wazuh-AWS-Threat Detection
 
 ## Overview
 Deployed Wazuh SIEM on AWS EC2 Ubuntu instance for log monitoring and threat detection.
